@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)]()
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-red)]()
 [![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-blue)]()
-[![Framework](https://img.shields.io/badge/Framework-TensorFlow%20%2F%20Keras-orange?logo=tensorflow)]()
+[![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?logo=pytorch&logoColor=white)]()
 [![Architecture](https://img.shields.io/badge/Model-CNN--1D-purple)]()
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen)](https://opensource.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
