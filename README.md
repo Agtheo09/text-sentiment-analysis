@@ -18,7 +18,7 @@ An end-to-end Machine Learning and **NLP framework** that uses **Convolutional N
 [Advanced NLP Preprocessing] (Tokenization ➔ Punctuation/Number Removal ➔ Stemming/Lemmatization)
        │
        ▼
-[Vector Embedding Layer] (Dense Word Translation Array)
+[Vector Embedding Layer] (Dense Word Translation Array using TF IDF)
        │
        ▼
 [1D Convolutional Network (CNN)] (Local Feature Extraction & Feature Maps)
