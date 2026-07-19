@@ -1,4 +1,4 @@
-# Deep Sentiment: AI-Powered Text Sentiment Analysis 🧠📝
+# Text Sentiment Analysis 🧠📝
 
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen.svg)](https://opensource.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
