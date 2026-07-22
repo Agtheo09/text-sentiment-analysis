@@ -1,13 +1,19 @@
-# Deep Sentiment: AI-Powered Text Sentiment Analysis 🧠📝
+<div align="center">
+       
+# Text Sentiment Analysis 🧠📝
 
-[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen.svg)](https://opensource.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Framework](https://img.shields.io/badge/Framework-TensorFlow%20%2F%20Keras-orange.svg)]()
-[![NLP Tooling](https://img.shields.io/badge/NLP-NLTK%20%7C%20SpaCy-blue.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)]()
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-red)]()
+[![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-blue)]()
+[![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?logo=pytorch&logoColor=white)]()
+[![Architecture](https://img.shields.io/badge/Model-CNN--1D-purple)]()
+[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen)](https://opensource.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Research%20Project-lightgrey)]()
 
 An end-to-end Machine Learning and **NLP framework** that uses **Convolutional Neural Networks (CNNs)** to extract and classify emotional tone from unstructured text, moving beyond basic lexicon-based methods.
+</div>
 
----
 
 ## 📸 System Architecture & Visual Pipeline
 
@@ -18,7 +24,7 @@ An end-to-end Machine Learning and **NLP framework** that uses **Convolutional N
 [Advanced NLP Preprocessing] (Tokenization ➔ Punctuation/Number Removal ➔ Stemming/Lemmatization)
        │
        ▼
-[Vector Embedding Layer] (Dense Word Translation Array)
+[Vector Embedding Layer] (Dense Word Translation Array using TF IDF)
        │
        ▼
 [1D Convolutional Network (CNN)] (Local Feature Extraction & Feature Maps)
