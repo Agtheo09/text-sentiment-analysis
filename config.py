@@ -21,9 +21,9 @@ LEARNING_RATE = 0.001
 
 # ------------------------------------ Model ------------------------------------ #
 INPUT_SIZE = 8000
-NUM_CLASSES = 3
+NUM_CLASSES = 2
 
 # ------------------------------------ Paths ------------------------------------ #
-MODEL_NAME = "sentiment_model_medium_larger_dataset"
+MODEL_NAME = "svm_sentiment_model_margin_2"
 MODEL_PATH = f"./models/{MODEL_NAME}.pth"
 VECTORIZER_PATH = f"./models/{MODEL_NAME}_vectorizer.pkl"
