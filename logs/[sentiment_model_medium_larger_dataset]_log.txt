@@ -1,0 +1,66 @@
+
+Experiment: sentiment_model_medium_larger_dataset
+
+====================
+Dataset
+====================
+
+Training samples:
+23100
+
+
+====================
+Training Parameters
+====================
+
+Seed:
+42
+
+Batch size:
+16
+
+Epochs:
+20
+
+
+====================
+Optimizer
+====================
+
+Optimizer:
+AdamW
+
+Learning rate:
+0.001
+
+
+====================
+Loss
+====================
+
+CrossEntropyLoss
+Label smoothing:
+0.0
+
+
+====================
+Saved Model
+====================
+
+Path:
+./models/sentiment_model_medium_larger_dataset.pth
+
+
+
+====================
+Testing
+====================
+
+Accuracy: 65.40%
+
+Confusion Matrix:
+[[683  69 248]
+ [ 79 704 217]
+ [247 178 575]]
+
+

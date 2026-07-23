@@ -5,17 +5,20 @@ from config import INPUT_SIZE
 class Net(nn.Module):
     def __init__(self):
         super().__init__()
+        # self.network = nn.Sequential(
+        #     nn.Linear(INPUT_SIZE, 256),
+        #     nn.ReLU(),
+        #     nn.Dropout(0.5),
+        #     nn.Linear(256, 128),
+        #     nn.ReLU(),
+        #     nn.Dropout(0.3),
+        #     nn.Linear(128, 3)
+        # )
         self.network = nn.Sequential(
-            nn.Linear(INPUT_SIZE, 512),
-            nn.ReLU(),
-            nn.Dropout(0.5),
-            nn.Linear(512, 256),
-            nn.ReLU(),
-            nn.Dropout(0.5),
-            nn.Linear(256, 128),
+            nn.Linear(INPUT_SIZE, 128),
             nn.ReLU(),
             nn.Dropout(0.3),
-            nn.Linear(128, 2)
+            nn.Linear(128, 3)
         )
 
     def forward(self, x):

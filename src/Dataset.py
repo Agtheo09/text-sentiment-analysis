@@ -1,23 +1,26 @@
-from torch.utils.data import Dataset
 import torch
+from torch.utils.data import Dataset
 
-class ReviewDataset(Dataset):
+
+class MyDataset(Dataset):
+
     def __init__(self, X, y):
         self.X = X
         self.y = y
 
     def __len__(self):
-        return len(self.X)
+        return self.X.shape[0]
 
     def __getitem__(self, idx):
-        review = torch.tensor(
-            self.X[idx],
+
+        features = torch.tensor(
+            self.X[idx].toarray(),
             dtype=torch.float32
-        )
+        ).squeeze()
 
         label = torch.tensor(
             self.y[idx],
             dtype=torch.long
         )
 
-        return review, label
+        return features, label
